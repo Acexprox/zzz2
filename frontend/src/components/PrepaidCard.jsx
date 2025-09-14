@@ -778,7 +778,7 @@ const MiniCardPrice = styled.div`
 const UiverseWrapper = styled.div`
   /* From uiverse.io by @FrM-bot */
   & .card {
-    width: 293.33px;
+    width: 480px;
     height: min-content;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
