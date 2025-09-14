@@ -216,7 +216,9 @@ const StyledWrapper = styled.div`
   .card {
     --accent-color: #ffd426;
     position: relative;
-    width: 320px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.18);
