@@ -858,6 +858,7 @@ const UiverseWrapper = styled.div`
     grid-column: 1;
     display: flex;
     flex-direction: column;
+    padding-left: 15px;
   }
 
   & .column-two {
