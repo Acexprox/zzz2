@@ -866,7 +866,7 @@ const UiverseWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10.67px;
-    padding-right: 25px;
+    padding-right: 26px;
   }
 
   & .service-row {
