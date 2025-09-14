@@ -272,7 +272,7 @@ const HomePage = () => {
    // استخدام الكارت الجديد للعنصر الأول (بطاقات الدفع المسبق)
    if (index === 0) {
      return (
-       <div key={index} className="flex justify-center animate-on-scroll" style={{ animationDelay: `${index * 0.1}s` }}>
+       <div key={index} className="animate-on-scroll" style={{ animationDelay: `${index * 0.1}s` }}>
          <PrepaidCard />
        </div>
      );
