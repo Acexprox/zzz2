@@ -844,11 +844,10 @@ const UiverseWrapper = styled.div`
   & .services-data {
     position: absolute;
     top: 24px;
-    left: 1.33px;
-    right: 1.33px;
-    display: flex;
-    flex-direction: row;
-    gap: 13.33px;
+    left: 20px;
+    right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 10px 1fr;
     font-family: 'Tajawal', Arial, sans-serif;
     direction: rtl;
     text-align: right;
