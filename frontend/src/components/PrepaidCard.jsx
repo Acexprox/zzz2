@@ -855,13 +855,13 @@ const UiverseWrapper = styled.div`
   }
 
   & .column-one {
-    flex: 1;
+    grid-column: 1;
     display: flex;
     flex-direction: column;
   }
 
   & .column-two {
-    flex: 1;
+    grid-column: 3;
     display: flex;
     flex-direction: column;
     gap: 10.67px;
