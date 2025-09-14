@@ -778,15 +778,14 @@ const MiniCardPrice = styled.div`
 const UiverseWrapper = styled.div`
   /* From uiverse.io by @FrM-bot */
   & .card {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
+    width: 293.33px;
     height: min-content;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
     border-radius: .67rem 2.67rem;
     box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
     padding: 0; /* override outer .card padding to avoid extra height */
+    margin: 0 auto;
   }
 
   & .card:hover {
